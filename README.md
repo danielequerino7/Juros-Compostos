@@ -16,16 +16,6 @@ Este é um sistema simples desenvolvido em JavaScript para calcular juros compos
 <p><strong>Saída:</strong></p>
 <p>Montante final (M): 1.795,85</p>
 
-<h2>Funcionalidades Planejadas</h2>
-<ul>
-    <li>Cálculo de juros compostos baseado no valor inicial, taxa de juros e período.</li>
-</ul>
-
-<h2>Exemplos de Entrada e Saída</h2>
-
-<h3>Exemplo 1</h3>
-<p><strong>Entrada:</strong></p>
-<pre>
 
 ## Instruções para Execução
 1. Certifique-se de ter o **Node.js** instalado no seu sistema.
@@ -37,4 +27,7 @@ Este é um sistema simples desenvolvido em JavaScript para calcular juros compos
    ```bash
    node calculo.js
    ```
-   
+<li>Instale as dependências necessárias, incluindo o Jest para testes:</li>
+<pre>
+    npm install jest --save-dev
+</pre>
