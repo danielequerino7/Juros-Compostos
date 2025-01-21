@@ -6,6 +6,27 @@ Este é um sistema simples desenvolvido em JavaScript para calcular juros compos
 ## Funcionalidades Planejadas
 - [x] Cálculo de juros compostos baseado no valor inicial, taxa de juros e período.
 
+## Exemplo de Cálculo
+<p><strong>Entrada:</strong></p>
+<ul>
+    <li>Valor inicial (P): 1.000</li>
+    <li>Taxa de juros (i): 5% ao mês (0.05)</li>
+    <li>Período (n): 12 meses</li>
+</ul>
+<p><strong>Saída:</strong></p>
+<p>Montante final (M): 1.795,85</p>
+
+<h2>Funcionalidades Planejadas</h2>
+<ul>
+    <li>Cálculo de juros compostos baseado no valor inicial, taxa de juros e período.</li>
+</ul>
+
+<h2>Exemplos de Entrada e Saída</h2>
+
+<h3>Exemplo 1</h3>
+<p><strong>Entrada:</strong></p>
+<pre>
+
 ## Instruções para Execução
 1. Certifique-se de ter o **Node.js** instalado no seu sistema.
 2. Clone este repositório:
