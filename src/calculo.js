@@ -1,5 +1,5 @@
 function calcularJurosCompostos(capitalInicial, taxaJuros, tempo) {
-  const montante = capitalInicial * Math.pow(taxaJuros, tempo);
+  const montante = capitalInicial * Math.pow(1 + taxaJuros, tempo);
   const juros = montante - capitalInicial;
 
   return {
