@@ -7,4 +7,9 @@ describe("Testes de Juros Compostos", () => {
     expect(resultado.jurosAcumulados).toBe("795.86");
   });
 
+  test("Deve retornar valores corretos mesmo para valores negativos de capital", () => {
+    const resultado = calcularJurosCompostos(-1000, 0.05, 12);
+    expect(resultado.montanteFinal).toBe("-1795.86");
+    expect(resultado.jurosAcumulados).toBe("-795.86");
+  });
 });
